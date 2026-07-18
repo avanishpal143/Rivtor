@@ -31,9 +31,6 @@ export const SuccessStory: React.FC = () => {
             className="lg:col-span-6 space-y-8"
           >
             <div className="space-y-4">
-              <span className="text-secondary font-semibold text-xs tracking-wider uppercase block">
-                Success Story
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight leading-tight">
                 Scaling A Rapidly Growing Enterprise
               </h2>

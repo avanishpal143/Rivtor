@@ -47,9 +47,6 @@ export const Testimonials: React.FC = () => {
         
         {/* Title */}
         <div className="max-w-2xl mx-auto text-center mb-16 sm:mb-24 space-y-4">
-          <span className="text-primary font-semibold text-xs tracking-wider uppercase">
-            Client Testimonials
-          </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight">
             Trusted by Sweden's Leading Engineers
           </h2>

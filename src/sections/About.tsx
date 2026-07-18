@@ -12,18 +12,7 @@ export const About: React.FC = () => {
       
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         
-        {/* Breadcrumb Label */}
-        <motion.div
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-8"
-        >
-          <span className="text-primary font-semibold text-xs tracking-wider uppercase">
-            About Rivtor AB
-          </span>
-        </motion.div>
+
 
         {/* Large Editorial Quote */}
         <motion.div

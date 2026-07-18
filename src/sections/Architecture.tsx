@@ -41,9 +41,6 @@ export const Architecture: React.FC = () => {
         
         {/* Title */}
         <div className="max-w-2xl mx-auto text-center mb-16 sm:mb-24 space-y-4">
-          <span className="text-secondary font-semibold text-xs tracking-wider uppercase">
-            Digital Architecture
-          </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight">
             Enterprise Architecture Visualization
           </h2>

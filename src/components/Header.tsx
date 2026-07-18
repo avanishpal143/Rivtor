@@ -55,9 +55,6 @@ export const Header: React.FC = () => {
               alt="Rivtor AB Logo" 
               className="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
             />
-            <span className="text-lg font-black tracking-tight text-text-brand uppercase">
-              Rivtor
-            </span>
           </a>
 
           {/* Desktop Navigation Links */}

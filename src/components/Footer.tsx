@@ -10,9 +10,6 @@ export const Footer: React.FC = () => {
         <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 max-w-sm">
           <div className="flex items-center gap-3">
             <img src="/logo.png" alt="Rivtor Logo" className="h-7 w-auto" />
-            <span className="text-base font-black tracking-tight text-text-brand uppercase">
-              Rivtor AB
-            </span>
           </div>
           <p className="text-xs sm:text-sm text-body-brand leading-relaxed">
             © {new Date().getFullYear()} Rivtor AB. All Rights Reserved. <br />
@@ -36,11 +33,6 @@ export const Footer: React.FC = () => {
 
       </div>
 
-      {/* Crafted credit tag */}
-      <div className="container mx-auto px-6 lg:px-12 mt-8 pt-8 border-t border-border-brand/40 flex justify-between items-center text-[10px] text-muted-brand font-mono">
-        <span>CRAFTED BY DEVLOFOX</span>
-        <span>INDEXED BY GOOGLE & DUCKDUCKGO</span>
-      </div>
     </footer>
   );
 };

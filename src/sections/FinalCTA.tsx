@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiMail, FiMapPin, FiCalendar, FiArrowRight } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiArrowRight } from 'react-icons/fi';
 import { MagneticButton } from '../components/MagneticButton';
 
 export const FinalCTA: React.FC = () => {
@@ -31,9 +31,6 @@ export const FinalCTA: React.FC = () => {
 
           {/* Heading */}
           <div className="space-y-4 max-w-3xl">
-            <span className="text-primary font-bold text-xs tracking-wider uppercase font-mono block">
-              // LET'S BUILD THE FUTURE
-            </span>
             <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black text-text-brand leading-[1.08] tracking-tight">
               Ready to Build the Next Generation of Digital Solutions?
             </h2>
@@ -48,16 +45,8 @@ export const FinalCTA: React.FC = () => {
               variant="primary" 
               onClick={() => window.open('mailto:Konwar@domain')}
             >
-              <FiCalendar />
-              <span>Schedule Consultation</span>
+              <span>Talk to us</span>
               <FiArrowRight />
-            </MagneticButton>
-            
-            <MagneticButton 
-              variant="secondary"
-              onClick={() => window.open('mailto:Konwar@domain')}
-            >
-              <span>Talk to Our Engineering Team</span>
             </MagneticButton>
           </div>
 

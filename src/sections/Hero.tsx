@@ -273,10 +273,6 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="flex flex-col space-y-8"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-soft-blue border border-primary/20 text-primary font-medium text-xs tracking-wider uppercase w-fit">
-            <span>Enterprise Engineering Brand</span>
-          </div>
-
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.08] text-text-brand max-w-xl">
             Engineering Digital <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Infrastructure</span> That Grows With Your Business
           </h1>
@@ -312,25 +308,9 @@ export const Hero: React.FC = () => {
                 if (el) el.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              <span>Schedule a Consultation</span>
+              <span>Connect with us</span>
               <FiArrowRight />
             </MagneticButton>
-            
-            <MagneticButton 
-              variant="secondary"
-              onClick={() => {
-                const el = document.getElementById('contact');
-                if (el) el.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
-              <span>Discuss Your Project</span>
-            </MagneticButton>
-          </div>
-
-          {/* Sweden Trust Badge */}
-          <div className="pt-6 border-t border-border-brand/60 flex items-center gap-3 text-xs text-muted-brand">
-            <span className="w-2.5 h-2.5 rounded-full bg-success-brand animate-pulse" />
-            <span>Operational HQ: Sweden • Engineering Globally</span>
           </div>
         </motion.div>
 

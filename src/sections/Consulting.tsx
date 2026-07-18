@@ -19,9 +19,6 @@ export const Consulting: React.FC = () => {
             className="lg:col-span-6 space-y-8"
           >
             <div className="space-y-4">
-              <span className="text-secondary font-semibold text-xs tracking-wider uppercase block">
-                Technology Consulting
-              </span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight leading-tight">
                 Bridging Corporate Objectives and Engineering Execution
               </h2>

@@ -101,9 +101,6 @@ export const Process: React.FC = () => {
         
         {/* Editorial Heading Panel */}
         <div className="w-[100vw] flex-shrink-0 flex flex-col justify-center px-12 lg:px-24 space-y-4">
-          <span className="text-secondary font-semibold text-xs tracking-wider uppercase">
-            Our Engineering Approach
-          </span>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-text-brand leading-none tracking-tight max-w-xl">
             A Structured, High-Precision Process
           </h2>

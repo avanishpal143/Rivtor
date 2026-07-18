@@ -65,9 +65,6 @@ export const Cloud: React.FC = () => {
           <div className="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center border border-primary/20">
             <FiCloudLightning size={24} />
           </div>
-          <span className="text-primary font-semibold text-xs tracking-wider uppercase block">
-            Cloud Engineering
-          </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight leading-tight">
             Automated Cloud-Native Infrastructure
           </h2>

@@ -70,9 +70,6 @@ export const Industries: React.FC = () => {
         
         {/* Title */}
         <div className="max-w-2xl mb-16 sm:mb-24 space-y-4">
-          <span className="text-primary font-semibold text-xs tracking-wider uppercase">
-            Industries We Serve
-          </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight">
             Tailored Engineering for Complex Sectors
           </h2>

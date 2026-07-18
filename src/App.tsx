@@ -7,6 +7,7 @@ import { SEO } from './components/SEO';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { CursorGlow } from './components/CursorGlow';
+import { ScrollToTop } from './components/ScrollToTop';
 
 // Content Sections
 import { Hero } from './sections/Hero';
@@ -62,6 +63,9 @@ export const App: React.FC = () => {
 
         {/* Global Navigation Header */}
         <Header />
+
+        {/* Floating Go to Top Button */}
+        <ScrollToTop />
 
         {/* Storytelling Content Layers */}
         <main className="w-full">

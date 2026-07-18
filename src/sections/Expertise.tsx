@@ -13,9 +13,6 @@ export const Expertise: React.FC = () => {
         
         {/* Section Header */}
         <div className="max-w-xl space-y-4">
-          <span className="text-primary font-semibold text-xs tracking-wider uppercase">
-            Our Core Competencies
-          </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight">
             Handcrafted Engineering Solutions
           </h2>

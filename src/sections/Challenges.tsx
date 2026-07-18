@@ -63,9 +63,6 @@ export const Challenges: React.FC = () => {
         {/* Left Side: Sticky Editorial Intro */}
         <div className="lg:col-span-5 flex flex-col justify-start h-fit">
           <div ref={leftPinRef} className="space-y-6 lg:max-w-md pt-4">
-            <span className="text-secondary font-semibold text-xs tracking-wider uppercase">
-              Technology Challenges
-            </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-brand tracking-tight leading-tight">
               The True Cost of Legacy Infrastructure
             </h2>
