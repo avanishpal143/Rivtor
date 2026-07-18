@@ -1,0 +1,130 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&f[]=general-sans@300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2E5BFF;
+  --color-secondary: #8B5CF6;
+  --color-accent: #BFA5FF;
+  --color-soft-blue: #EAF2FF;
+  --color-bg-brand: #FCFDFF;
+  --color-bg-alt: #F6F9FD;
+  --color-card: #FFFFFF;
+  --color-border-brand: #E8EDF7;
+  --color-text-brand: #111827;
+  --color-body-brand: #616B7C;
+  --color-muted-brand: #8A94A6;
+  --color-success-brand: #22C55E;
+  
+  --font-heading: "Satoshi", "General Sans", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+/* Custom Base Configurations */
+html, body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg-brand);
+  color: var(--color-text-brand);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FCFDFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8EDF7;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFA5FF;
+}
+
+/* Blueprint grids and canvas utilities */
+.blueprint-grid {
+  background-image: 
+    linear-gradient(to right, rgba(46, 91, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(46, 91, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.blueprint-grid-fine {
+  background-image: 
+    linear-gradient(to right, rgba(46, 91, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(46, 91, 255, 0.02) 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+/* Smooth Scrolling Classes */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overflow: clip;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Cursor Glow Overlay */
+.cursor-glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, rgba(46, 91, 255, 0.08) 0%, rgba(139, 92, 246, 0.03) 45%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s ease;
+}
+
+/* Clip/Text Reveal Utilities */
+.clip-reveal {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: clip-path 1.2s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.clip-reveal.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.text-reveal-container {
+  overflow: hidden;
+}
+
+.text-reveal-word {
+  transform: translateY(100%);
+}
+
+/* Swiper custom styles override */
+.swiper-button-next, .swiper-button-prev {
+  color: var(--color-primary) !important;
+}
+.swiper-pagination-bullet-active {
+  background: var(--color-primary) !important;
+}
